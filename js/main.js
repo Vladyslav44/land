@@ -21,3 +21,24 @@ $(function(){
 	});
 
 });
+
+const openPopUp = document.getElementById('open-pop-up')
+const openPopUp2 = document.getElementById('open-pop-up2')
+const closePopUp = document.getElementById('close-pop-up')
+const popUp = document.getElementById('pop-up')
+
+openPopUp2.addEventListener('click',function (e) {
+	e.preventDefault()
+	popUp.classList.add('active');
+
+})
+
+openPopUp.addEventListener('click',function (e) {
+	e.preventDefault()
+	popUp.classList.add('active');
+
+})
+
+closePopUp.addEventListener('click', function () {
+	popUp.classList.remove('active');
+})
