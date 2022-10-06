@@ -977,9 +977,9 @@ header {
   padding: 5px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .car-footer {
-    display: none;
+    margin-left: 95px;
   }
 }
 
