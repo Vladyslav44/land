@@ -22,6 +22,7 @@ $(function(){
 
 });
 
+
 const openPopUp = document.getElementById('open-pop-up')
 const openPopUp2 = document.getElementById('open-pop-up2')
 const closePopUp = document.getElementById('close-pop-up')
@@ -43,4 +44,18 @@ closePopUp.addEventListener('click', function () {
 	popUp.classList.remove('active');
 })
 
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
 
+arrowTop.onclick = function() {
+	window.scrollTo(pageXOffset, 0);
+	// после scrollTo возникнет событие "scroll", так что стрелка автоматически скроется
+};
+
+window.addEventListener('scroll', function() {
+	arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+});
