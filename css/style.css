@@ -1014,13 +1014,20 @@ header {
   margin-right: 0px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1616px) {
+  #arrowTop {
+    margin-left: -67px;
+  }
+}
+
+@media screen and (max-width: 1484px) {
   #arrowTop {
     display: none;
   }
 }
 
 #arrowTop {
+  z-index: 10;
   color: #ffffff;
   position: fixed;
   top: 330px;
