@@ -29,6 +29,11 @@ body {
   margin: 0px 5px;
 }
 
+.social__img:hover {
+  transition: transform .2s;
+  transform: scale(1.1);
+}
+
 .header {
   background: url("../images/IMG_3600.png") no-repeat top center/cover;
   min-height: 700px;
@@ -137,6 +142,11 @@ body {
   width: 181px;
 }
 
+.logo__img:hover {
+  transition: transform .2s;
+  transform: scale(1.1);
+}
+
 /*------------SERVICES--------------*/
 .services {
   padding-top: 350px;
@@ -199,7 +209,6 @@ body {
 .services__item:hover {
   border: 1px solid #670000;
   width: 500px;
-  background-color: #030a0a;
   background-image: linear-gradient(45deg, #a7000a, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -282,7 +291,16 @@ body {
 .benefits__list {
   background-color: #000;
   padding: 25px 0px 25px 185px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
+
+.benefits__list:hover {
+  transition: transform 1.5s;
+  transform: scale(1.1);
+
+}
+
 .benefits__item {
   width: 320px;
   margin-bottom: 20px;
@@ -336,6 +354,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 50px;
+  cursor: pointer;
 }
 .carousel .slick-dots button {
   font-size: 0;
@@ -977,15 +996,9 @@ header {
   padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  .car-footer {
-    margin-left: 95px;
-  }
-}
-
 .car-footer {
   width: 52%;
-  margin-right: 125px;
+  margin-right: 0px;
 }
 
 @media screen and (max-width: 650px) {
@@ -1018,6 +1031,7 @@ header {
   color: #d6d6d6;
   background: linear-gradient(45deg, #180253, #920303);
   transform: scale(1.1);
+  box-shadow: 0px 0px 23px rgba(157, 157, 157, 0.3);
 }
 
 .fa-arrow-turn-up {
@@ -1074,8 +1088,9 @@ header {
 
 section.choose-us .choose-list .choose-card {
   width: 33%;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   transition: transform 0.3s ease;
+
 }
 
 section.choose-us .choose-list .item {
@@ -1102,8 +1117,23 @@ strong {
 }
 
 @media screen and (max-width: 650px) {
+  .para1 {
+    font-size: 50px;
+  }
+
   .choose-us {
-    display: none;
+    background-repeat: repeat;
+  }
+
+  .choose-list {
+    padding: 0;
+    display: block;
+  }
+
+  section.choose-us .choose-list .choose-card {
+    width: auto;
+    margin-bottom: 0;
+    transition: transform 0.3s ease;
   }
 }
 
@@ -1114,4 +1144,5 @@ strong {
 .text-item:hover {
   transition: transform .2s;
   transform: scale(1.1);
+  box-shadow: 4px 6px 16px rgba(157, 157, 157, 0.3);
 }
