@@ -937,6 +937,11 @@ header {
 @media screen and (max-width: 650px) {
   .menu-btn {
     display: block;
+    background: gray;
+    position: fixed;
+    width: 50px;
+    height: 57px;
+    box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);
   }
 }
 
@@ -955,6 +960,14 @@ header {
 }
 .menu-btn span:nth-of-type(3) {
   top: calc(50% + 5px);
+}
+.menu-burg {
+  background: gray;
+  width: 237px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);
+  position:fixed ;
 }
 
 .menu {
