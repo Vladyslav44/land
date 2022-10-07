@@ -35,7 +35,7 @@ body {
 }
 
 .header {
-  background: url("../images/IMG_3600.png") no-repeat top center/cover;
+  background: url("../images/IMG_3650.JPG") no-repeat top center/cover;
   min-height: 700px;
   color: #fff;
 
@@ -106,7 +106,7 @@ body {
 
 .phone {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 147%;
 }
 
@@ -234,7 +234,7 @@ body {
   line-height: 147%;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .title::after {
   content: "";
@@ -1014,7 +1014,7 @@ header {
   margin-right: 0px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 820px) {
   #arrowTop {
     display: none;
   }
@@ -1129,7 +1129,7 @@ strong {
   top: -25px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 830px) {
   .para1 {
     font-size: 50px;
   }
