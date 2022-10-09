@@ -883,7 +883,7 @@ input:invalid {
 @media screen and (max-width: 450px) {
   .phone {
     position: relative;
-    top: -34px;
+    top: -26px;
   }
 }
 
@@ -962,11 +962,11 @@ header {
   top: calc(50% + 5px);
 }
 .menu-burg {
-  background: gray;
+  /*background: gray;*/
   width: 237px;
   display: flex;
   justify-content: center;
-  box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);
+  /*box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);*/
   position:fixed ;
 }
 
