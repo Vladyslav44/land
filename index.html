@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>TouchCar</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="arrowTop" hidden>
+		<i class="fa-solid fa-arrow-turn-up"></i>
+	</div>
+	<div id="pop-up" class="section-modal">
+		<div class="section-modal-container">
+			<div id="body-pop-up" class="modal-body">
+				<p>Звяжіться з нами</p>
+				<div class="contact1">Телефон
+					<h4>+38 (099) 365 78 38 <b> - Вячеслав</b></h4>
+					<h4>+38 (097) 790 70 11 <b> - Олександр</b></h4>
+					<h4>+38 (063) 352 94 74 <b> - Support</b></h4>
+					<h4>+38 (050) 103 53 86 <b> - Павло</b></h4>
+				</div>
+				<div class="contact2">
+					Email
+					<h4>touchcarkyiv@gmail.com</h4>
+				</div>
+				<div class="contact3">
+					Telegram:
+					<a href="https://t.me/touchcarkyiv" target="_blank" style="padding-left: 30px" class="manager"><i class="fa-brands fa-telegram"></i></a>
+				</div>
+				<div class="contact3">
+					Telegram-Chat:
+					<a href="https://t.me/touchcarsupport" target="_blank" style="padding-left: 30px" class="manager"><i class="fa-brands fa-telegram"></i></a>
+				</div>
+				<div class="contact3">
+					Instagram:
+					<a href="https://instagram.com/touchcar.kyiv?igshid=YmMyMTA2M2Y=" target="_blank" style="padding-left: 30px" class="manager"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				<form action="">
+<!--					<input class="contacts__input" type="text" placeholder="Як вас звати?" pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]+"-->
+<!--						   title="Невірний формат, тільки букви">-->
+<!--					<input class="contacts__input" type="tel" placeholder="Введіть номер телефону" pattern="^\(\d{3}\)\d{3}-\d{2}-\d{2}$"-->
+<!--						   title="Введіть будь-ласка у форматі (ХХХ)XXX-XX-XX">-->
+<!--					<button>Відправити</button>-->
+				</form>
+				<div id="close-pop-up" class="modal-close">&#10006</div>
+			</div>
+		</div>
+	</div>
+	<header class="header">
+		<div class="container" style="width: 1220px">
+			<header>
+				<div class="menu-btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</header>
+			<div class="menu">
+				<nav class="menu-burg">
+					<ul>
+						<li><a class="burger-a" href="#header">Головна</a></li>
+						<li><a class="burger-a" href="#services">Послуги</a></li>
+						<li><a class="burger-a" href="#benefits">Про нас</a></li>
+						<li><a class="burger-a" href="#carousel">Пригнані авто</a></li>
+						<li><a class="burger-a" href="#choose">Переваги</a></li>
+						<li><a class="burger-a" href="#contacts">Контакти</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__top">
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/logo2.png" alt="logo">
+				</a>
+				<div class="header-nav">
+					<a class="nav" href="#header">Головна</a>
+					<a class="nav" href="#services">Послуги</a>
+					<a class="nav" href="#benefits">Про нас</a>
+					<a class="nav" href="#carousel">Пригнані авто</a>
+					<a class="nav" href="#choose">Переваги</a>
+					<a class="nav" href="#contacts">Контакти</a>
+
+				</div>
+				<div style="display: grid">
+					<a class="phone" href="tel:+380993657838">+38 (099) 365 78 38</a>
+					<a class="phone" href="tel:+380977907011">+38 (097) 790 70 11</a>
+					<a class="phone" href="tel:+380633529474">+38 (063) 352 94 74</a>
+				</div>
+
+			</div>
+			<div class="header__content" id="header">
+				<h1 class="header__title">Авто з США, КАНАДИ <br/> ТА ЄВРОПИ "під ключ"</h1>
+				<h2 class="header__subtitle">Замов собі авто із США з вигодою до 40%</h2>
+				<p class="header__text">Підбір, купівля, доставка, розмитнення, ремонт, оформлення на клієнта</p>
+				<a class="button" href="mailto:shapovalsanco@gmail.com" target="_blank" id="open-pop-up">
+					Консультація експерта
+				</a>
+				<div class="social header__social">
+					<a class="social__link" target="_blank" href="https://instagram.com/touchcar.kyiv?igshid=YmMyMTA2M2Y=">
+						<img class="social__img" src="images/icons/instagram.svg" alt="instagram-logo">
+					</a>
+					<a class="social__link" target="_blank" href="https://t.me/touchcarsupport">
+						<img class="social__img" src="images/icons/telegram.svg" alt="telegram-logo">
+					</a>
+					<a class="social__link" href="tel:+380633529474">
+						<img class="social__img" src="images/icons/whatsapp.svg" alt="whatsapp-logo">
+					</a>
+					<a class="social__link" href="tel:+380633529474">
+						<i class="fa-brands fa-viber"></i>
+					</a>
+				</div>
+				<img class="header__images" src="images/3tesla.png" alt="ford-mustang">
+			</div>
+		</div>
+	</header>
+	<section class="services">
+		<div class="container">
+			<h2 class="title" id="services">Наші послуги</h2>
+			<div class="services__inner">
+				<div class="services__content">
+					<div class="services__content-box">
+						<h6 class="services__content-title">
+							Чому ввезення авто із США?
+						</h6>
+						<div class="services__content-textbox">
+							<p class="services__content-text">
+								Ми порівняли ринки США з Європейськими і зрозуміли, що покупка автомобіля в Америці вигідніша в кілька разів, як би парадоксально це не звучало. Це викликано продуманою логістикою, рівнем розвитку сервісів щодо оцінювання стану авто та самим процесом купівлі автомобіля.
+							</p>
+							<p class="services__text">
+								Більшість громадян США беруть автомобіль у лізинг на кілька років і весь час експлуатації сама лізингова компанія займається постійним ТО автомобіля, внаслідок чого машини зі США – один з кращих виборів для автолюбителів України.
+							</p>
+						</div>
+					</div>
+					<div class="services__content-box">
+						<h6 class="services__content-title">
+							Чому така низька ціна?
+						</h6>
+						<div class="services__content-textbox">
+							<p class="services__text">
+								Биті автомобілі із США викуповуються з аукціонів страхових компаній. На цих аукціонах машина втрачає половину ціни навіть через мінімальні пошкодження. Якщо враховувати грошові витрати, а саме викуп, доставку, митницю та ремонт, то ціна аналогічного за станом автомобіля в Україні буде вищою на 35-50%, а нові коштуватимуть космічних грошей.
+							</p>
+						</div>
+						<a class="button button--decor" href="#" id="open-pop-up2">Консультація експерта</a>
+					</div>
+				</div>
+				<ol class="services__list">
+					<li class="services__item">
+						<p class="services__item-title">Купівля авто</p>
+						<p class="services__item-text">Підбір автомобіля експертна перевірка</p>
+					</li>
+					<li class="services__item">
+						<p class="services__item-title">Доставка морем</p>
+						<p class="services__item-text">Розрахунок оптимальної вартості доставки авто</p>
+					</li>
+					<li class="services__item">
+						<p class="services__item-title">Розмитнення авто</p>
+						<p class="services__item-text">Проходження митного оформлення (2-3 дні)</p>
+					</li>
+					<li class="services__item">
+						<p class="services__item-title">Ремонт авто</p>
+						<p class="services__item-text">Комплексний ремонт автомобіля на СТО</p>
+					</li>
+					<li class="services__item">
+						<p class="services__item-title">Сертифікація</p>
+						<p class="services__item-text">Послуга надається за бажанням</p>
+					</li>
+					<li class="services__item">
+						<p class="services__item-title">Постановка на облік</p>
+						<p class="services__item-text">Оформлення автомобіля в Україні</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</section>
+	<section class="benefits" id="benefits">
+		<div class="container">
+			<div class="benefits__inner">
+				<img class="benefits__image" src="images/car.png" alt="car">
+				<div class="benefits__content">
+					<h2 class="title benefits__title">Чому ми?</h2>
+					<ul class="benefits__list">
+						<li class="benefits__item">
+							<p class="benefits__item-num">1000+</p>
+							<p class="benefits__item-title">успішно доставлених авто</p>
+							<p class="benefits__item-text">великий досвід пригону автомобілів із США під ключ, усі клієнти залишилися задоволені на 100%</p>
+						</li>
+						<li class="benefits__item">
+							<p class="benefits__item-num">5+</p>
+							<p class="benefits__item-title">років на ринку України</p>
+							<p class="benefits__item-text">Працюємо по всій території України, працюємо за договором із клієнтами</p>
+						</li>
+						<li class="benefits__item">
+							<p class="benefits__item-num">100%</p>
+							<p class="benefits__item-title">довіра клієнтів</p>
+							<p class="benefits__item-text">Онлайн звітність. Ви завжди знаєте статус підбору вашого авто. Фото та відео звіт</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="carousel" id="carousel">
+		<div class="container">
+			<h2 class="title">
+				Пригнані нами авто
+			</h2>
+			<div class="carousel__inner">
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/4.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Mazda 6 Touring 2014 р.<br>Пробіг: 80.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 9900 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/2.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Ford Mustang 2016 p.<br>Пробіг: 80.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 13000 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px; padding-left: 9px;" src="images/carousel/3.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Audi A6 2016 p.<br>Пробіг: 77.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 16500$ $</p>
+					</div>
+				</div>
+<!--				<div class="carousel__item">-->
+<!--					<div class="carousel__item-box">-->
+<!--						<img class="carousel__item-img" style="height: 301px; padding-left: 16px;" src="images/carousel/11.jpg" alt="carousel images">-->
+<!--						<h4 class="carousel__item-title">Audi A5 2011 р.</h4>-->
+<!--						<p class="carousel__item-text">Економія 2500 $</p>-->
+<!--					</div>-->
+<!--				</div>-->
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/5.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Volkswagen Jetta 2016 р.<br>Пробіг: 50.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 8700 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/carousel/6.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Dodge Challenger 2015 р.<br>Пробіг: 84.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 14 500  $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px;" src="images/carousel/7.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Nissan Leaf 2017 р.<br>Пробіг: 62.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 11 000 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px;padding-left: 12px;" src="images/carousel/1.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Audi A4 2016 р.<br>Пробіг: 70.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 11 500 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px; padding-left: 14px;" src="images/carousel/10.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Ford Fusion SE 2017 р.<br>Пробіг: 90.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 10200 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/9.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Bmw M3 F80 2015 р.<br>Пробіг: 66.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 39000 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/12.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Tesla Model 3 Standart Range Plus 2021 р.<br>Пробіг: 20.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 30000 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px" src="images/carousel/13.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Honda Accord 2017 р.<br>Пробіг: 97.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 12500 $</p>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" style="height: 301px; padding-left: 5px;" src="images/carousel/15.jpg" alt="carousel images">
+						<h4 class="carousel__item-title">Mini Cooper S 2014р.<br>Пробіг: 100.000 км</h4>
+						<p class="carousel__item-text">Кінцева ціна "під ключ": 11500 $</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="choose-us" id="choose">
+		<p class="para1">ВИБИРАЙТЕ НАС!</p>
+		<p class="para2">Чому ми краще всіх доставимо Ваш автомобіль:</p>
+		<p class="para3">переваги TouchCar, що гарантують якість послуг з придбання та доставки автомобіля з Америки.</p>
+		<div class="choose-list">
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item">
+						<strong>РЕТЕЛЬНИЙ ПІДБІР ТА ПЕРЕВІРКА</strong> <br/>
+						Менеджери TouchCar зі знанням справи підберуть для Вас найкращий автомобіль з урахуванням ваших побажань (чек-лист), перевірять його технічний стан та історію експлуатації баз CAR Fax, Avto Check, Epic Win. Компанія також надасть додаткову послугу майстра, який виїжджає на місце зберігання транспортного засобу. Він зробить детальний огляд автомобіля та складе про нього звіт.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>СТРАХУВАННЯ</strong> <br/>
+						Страхування транспортного засобу і морських перевезень включає такі ризики,
+						як катастрофи (пожежа, корабельна аварія і т.д.); повну втрату вантажу; нещасні
+						випадки під час доставки; грубе завантаження та вивантаження; розкрадання запчастин
+						чи обладнання. Ціна страховки розраховується індивідуально кожної машини
+						(про це вас проконсультує наш менеджер).</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>ПІДТРИМКА 24/7</strong> <br/>
+						Співробітники TouchCar у будь-який зручний для Вас час – при особистій зустрічі або заочно, у листуванні чи телефонній розмові – нададуть повну інформацію щодо оформлення замовлення та доставки автомобіля зі США та Канади.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>ВИГІДНЕ ТРАНСПОРТУВАННЯ</strong> <br/>
+						Кожен автомобіль ми перевіряємо до аукціону по 8 різних каналах - ми не обмежуємося одним
+						тільки CarFax звітом. Купувати з нами значно безпечніше!
+						Ми обходимося без зайвих ланок у логістиці, що дозволяє значно економити
+						кошти на доставці. Сьогодні TouchCar пропонує одні з найнижчих тарифів на
+						доставку автомобілів із США.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>МАКСИМАЛЬНА ШВИДКІСТЬ ВІДВАНТАЖЕННЯ</strong> <br/>
+						TouchCar працює з багатьма портами в Америці, тому процедура формування експортних вантажів відбувається без затримок. Автомобіль може бути відправлений із будь-якого порту США.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>ЗАВЖДИ ЗНАЙДЕМО СПІЛЬНУ МОВУ</strong> <br/>
+						Менеджери TouchCar зі знанням справи підберуть для Вас найкращий автомобіль з урахуванням ваших побажань (чек-лист), перевірять його технічний стан та історію експлуатації баз CAR Fax, Avto Check, Epic Win. Компанія також надасть додаткову послугу майстра, який виїжджає на місце зберігання транспортного засобу. Він зробить детальний огляд автомобіля та складе про нього звіт.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>ПРАЦЮЄМО ОФІЦІЙНО!</strong> <br/>
+						Усі угоди ми проводимо офіційно відповідно до договору, підписаного обома сторонами. Він має юридичну силу та покликаний гарантувати повну фінансову безпеку клієнта. TouchCar – комерційна організація, яка несе відповідальність за своїми зобов'язаннями згідно з чинним законодавством України.</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>ГАРАНТІЯ КРАЩОЇ ЦІНИ</strong> <br/>
+						Ми сумлінно підходимо до вибору автомобілів для своїх клієнтів – жодних "ляльок" та "котів у мішку"! Перевіряємо кожну кому в супровідних документах. Намагаємося для Вас як для себе.
+						Ми не пропонуємо псевдо-знижок, як це роблять інші компанії — ми готові запропонувати найкращу ціну на пригнаний зі США або Європи автомобіль!</div>
+				</div>
+			</div>
+			<div class="choose-card">
+				<div class="item">
+					<div class="text-item"><strong>
+						ДОПОМОГА В РОЗМИТНЕННІ ТА ОФОРМЛЕННІ В ПОРТУ
+					</strong> <br/>
+						Наші менеджери підготують усі необхідні документи для швидкої роботи митного брокера та експедитора. Вирішуємо проблеми у стандартних та нестандартних ситуаціях без додаткових витрат. Розмитнення автомобілів із США c TouchCar – це легко та просто.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="contacts__inner">
+				<div class="contacts__info">
+					<h2 class="title">
+						КОНТАКТИ
+					</h2>
+					<ul class="contacts__list">
+						<li class="contacts__item">
+							<p class="contacts__item-title">Адреса</p>
+							<p class="contacts__item-text">Україна, Київ<br>вул. Хрещатик, 17</p>
+						</li>
+						<li class="contacts__item">
+							<p class="contacts__item-title">Час роботи</p>
+							<p class="contacts__item-text">Пн-Сб: з 10:00 до 19:00,<br>Нд: вихідний
+						</li>
+						<li class="contacts__item">
+							<p class="contacts__item-title">Телефон</p>
+							<p class="contacts__item-text">+38 (097) 790 70 11 </p>
+							<p class="contacts__item-text">+38 (099) 365 78 38 </p>
+							<p class="contacts__item-text">+38 (063) 352 94 74 </p>
+						</li>
+					</ul>
+				</div>
+				<img class="car-footer" src="images/png_mustang_20383.png">
+				<div class="contacts__info">
+					<h2 class="title">
+						ПРО НАС
+					</h2>
+					<ul class="contacts__list">
+						<li class="contacts__item">
+							<p class="contacts__item-text">Компанія <b>TouchCar</b> була створена кілька років тому. Сьогодні ми не
+								просто приганяємо автомобілі зі США
+								або Європи, ми налагодили та зробили максимально безпечним
+								для клієнта процес покупки автомобіля за кордоном, від його перевірки та успішної покупки
+								на аукціоні до якнайшвидшої доставки в Україну для передачі клієнту.
+								<b>Наша місія</b> – це свіжі, якісні та безпечні автомобілі на дорогах України.
+								Ми хочемо, щоб купівля такого автомобіля була для Вас максимально доступною, простою та зрозумілою.
+								Наша команда працює для Вас!</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/logo2.png" alt="logo">
+				</a>
+				<div class="social">
+					<a class="social__link" target="_blank" href="https://instagram.com/touchcar_kyiv?igshid=YmMyMTA2M2Y=">
+						<img class="social__img" src="images/icons/instagram.svg" alt="instagram-logo">
+					</a>
+					<a class="social__link" target="_blank" href="https://t.me/touchcarsupport">
+						<img class="social__img" src="images/icons/telegram.svg" alt="telegram-logo">
+					</a>
+					<a class="social__link"  href="tel:+380633529474">
+						<img class="social__img" src="images/icons/whatsapp.svg" alt="whatsapp-logo">
+					</a>
+					<a class="social__link"  href="tel:+380633529474">
+						<i class="fa-brands fa-viber"></i>
+					</a>
+				</div>
+				<p class="footer__copy">
+					© 2018 - 2022 All Right Reserved. <b style="color: black">Touch</b><b style="color: darkred">Car</b>
+				</p>
+			</div>
+		</div>
+	</footer>							
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.fancy.box.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://kit.fontawesome.com/7ddf497838.js" crossorigin="anonymous"></script>
+</body>
+</html>
