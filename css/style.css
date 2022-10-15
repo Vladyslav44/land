@@ -106,7 +106,7 @@ body {
 
 .phone {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 147%;
 }
 
@@ -1013,7 +1013,7 @@ header {
 }
 
 .car-footer {
-  width: 52%;
+  width: 54%;
   margin-right: 0px;
 }
 
@@ -1178,4 +1178,12 @@ strong {
 .fa-viber:hover {
   transition: transform .2s;
   transform: scale(1.1);
+}
+
+.contacts__info {
+  width: 284px;
+}
+
+.contacts__item-title {
+  font-weight: 400;
 }
