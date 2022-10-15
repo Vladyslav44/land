@@ -979,12 +979,13 @@ header {
   left: 0;
   width: 100%;
   height: 28%;
-  padding: 15px;
+  /*padding: 15px;*/
   background: #a3a3a3;
   transform: translateX(-100%);
   transition: transform 0.5s;
 }
 .menu.active {
+  position: fixed;
   transform: translateX(0);
   display: flex;
   justify-content: center;
