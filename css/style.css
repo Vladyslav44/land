@@ -966,7 +966,7 @@ header {
 }
 .menu-burg {
   /*background: gray;*/
-  width: 237px;
+  width: 217px;
   display: flex;
   justify-content: center;
   /*box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);*/
@@ -1011,7 +1011,7 @@ header {
 }
 
 .burger-a {
-  padding: 5px;
+  padding: 4px;
 }
 
 .car-footer {
