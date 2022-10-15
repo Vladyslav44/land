@@ -971,6 +971,7 @@ header {
   justify-content: center;
   /*box-shadow: 4px 6px 16px rgba(229, 229, 229, 0.3);*/
   position:fixed ;
+  height: 236px;
 }
 
 .menu {
